@@ -1,0 +1,18 @@
+body {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: rgb(217, 239, 150); */
+  background-image: linear-gradient( to right, lightblue,  pink);
+  max-width: 1024px;
+  text-align: center;
+  border: 2px solid black;
+}
+#paragraph-result{
+  margin-top: 30px;
+}
+
+input{
+  width: 100px;
+  margin-top: 10px;
+}
+

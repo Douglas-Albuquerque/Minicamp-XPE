@@ -1,0 +1,34 @@
+<html>
+    <script>
+        // criar uma função que determine se um numero é primo
+        // criar um loop 
+        //verificarNumeroPrimo(15)
+
+        /*function verificarNumeroPrimo(limite){
+            for(let i = 2; i <= limite; i++){
+                 if (numeroPrimo(i)) console.log(i);
+            }
+        }
+        function numeroPrimo(i){
+            for( let divisor = 2; divisor < i; divisor ++){
+                if(i % divisor === 0){
+                    return false;
+                }
+            }
+            return true
+        }*/
+
+        //let n = 0; > > dentro da funçao
+        
+        //let i = 0; > dentro do for
+
+        const ePrimo = (numero) =>{
+            for (let i = 2; i < numero; i++){
+                if ( numero % i === 0){
+                    return false;
+            }
+            return numero > 1;
+        };
+
+    </script>
+</html>
